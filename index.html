@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap Styling-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"/>
+</head>
+<body class="bg-dark text-bg-dark">
+    <nav class="navbar navbar-dark bg-dark mb-3">
+        <div class="container">
+            <a href="/" class="navbar-brand">Github Finder</a>
+            <button class="btn btn-light mr-5" id="theme" >Dark/Light</button>
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        <div id="alert"></div>
+        <div class="border p-3">
+            <h1>Find Github User Name</h1>
+            <p class="lead">
+                Enter a username to access user information
+            </p>
+            <div class="d-flex gap-3">
+                <input class="form-control" id="search-user"  type="text" >
+                <button class="btn btn-primary btn-lg" id="search-button">Find</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="profile">
+      
+
+    </div>
+    
+    <!--BS-JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" ></script>
+    <!--JS-->
+    <script src="app.js" type="module"></script>
+</body>
+</html>
